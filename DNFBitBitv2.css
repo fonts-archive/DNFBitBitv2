@@ -1,3 +1,10 @@
-@font-face{
-font-family:'DNFBitBitv2';
-font-style:normal;font-weight:400;src:url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype')}
+@font-face {
+    font-family: 'DNFBitBitv2';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFBitBitv2/DNFBitBitv2.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFBitBitv2/DNFBitBitv2.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFBitBitv2/DNFBitBitv2.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/DNFBitBitv2/DNFBitBitv2.ttf') format('truetype');
+}
